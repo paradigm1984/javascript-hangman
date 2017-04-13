@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============================ MY CODE ============================== */
+
+
+
+body.body-style {
+
+	background-color: black;
+}
+
+/* ======================= TOP SECTION ===================== */
+
+div.jumbotron {
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 15px;
+}
+img.hangman-header {
+
+	width: 100%;
+
+}
+
+/* ==================== DIRECTIONS SECTION ================= */
+
+div.panel1 {
+	
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 15px;
+	padding:20px;
+	width: 100%;
+	margin-bottom: 25px;
+
+
+}
+
+
+h3.directions-header {
+	
+	font-size: 3em;
+	color:white;
+	font-family: verdana;
+	text-align: center;
+	padding-bottom:10px;
+	
+
+}
+
+p.direction-text {
+
+	
+	color:white;
+	font-family: verdana;
+	text-align: center;
+	padding:5px;
+	line-height: 1.2em;
+	margin-top: 5px;
+}
+
+/* ====================== GAME SECTION =================== */
+
+div.panel2 {
+	
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 15px;
+	padding:5px;
+	width: 100%;
+	
+}
+
+p,h1,h2.game-text {
+	
+	color:white;
+	font-family: verdana;
+	text-align: center;
+	padding-bottom:10px;
+	padding-top: 10px;
+
+}
+
+p.game-text{
+	
+	font-size: 1.3em;
+
+}
+
+h1.game-text {
+	
+	font-size: 2em;
+
+}
